@@ -1,0 +1,35 @@
+body{
+  font-family:'ITC Franklin Gothic', 'Arial Narrow', Arial, sans-serif
+}
+
+.header{
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+.logo {
+  border: 3px solid cadetblue
+}
+
+.response {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .response {
+    display: inline;
+    margin: 5px;
+    border: none;
+    color: cadetblue;
+    background-color: transparent;
+  }
+
+  .full-view {
+    display: none;
+  }
+
+  .row img{
+    width: 50px;
+    height: 50px
+  }
+
+}
